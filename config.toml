@@ -1,0 +1,6 @@
+baseurl = "http://hello.example.com/"
+languageCode = "jp"
+title = "Hello World!"
+
+[params]
+error404="あると思った？ 残念！ 404 でした。"
