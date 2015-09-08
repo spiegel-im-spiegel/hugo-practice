@@ -6,6 +6,11 @@
 </head>
 <body>
 <h1>{{ .Title }}</h1>
+<nav>
+	{{ with .Params.categories }}<div>Categories:{{ range . }} <a href="/categories/{{ . }}/">{{ . }}</a>{{ end }}</div>{{ end }}
+	{{ with .Params.tags }}<div>Tags:{{ range . }} <a href="/tags/{{ . }}/">#{{ . }}</a>{{ end }}</div>{{ end }}
+</nav>
+
 <div>{{ .Content }}</div>
 </body>
 <html>
