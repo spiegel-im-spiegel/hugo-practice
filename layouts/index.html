@@ -14,5 +14,19 @@
 {{ end }}
 </ul>
 
+<!--
+<h2>Taxonomy Terms</h2>
+<ul>{{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+    <li>{{ $taxonomyname }}
+        <ul>{{ range $key, $value := $taxonomy }}
+            <li><a href="/{{ $taxonomyname | urlize }}/{{ $key | urlize }}">{{ $key }}</a> ({{ $value.Count }})
+                <ul>{{ range $value.Pages }}
+                    <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a> </li>
+                {{ end }}</ul></li>
+        {{ end }}</ul>
+    </li>
+{{ end }}</ul>
+-->
+
 </body>
 <html>
