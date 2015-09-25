@@ -5,3 +5,16 @@ theme = "hugo-theme-text"
 
 [params]
 error404="あると思った？ 残念！ 404 でした。"
+
+[params.author]
+name      = "Spiegel"
+url       = "http://www.baldanders.info/spiegel/profile/"
+avatar    = "/images/avatar.jpg"
+license   = "by-sa"
+github    = "spiegel-im-spiegel"
+twitter   = "spiegel_2007"
+medium    = "@spiegel"
+instagram = "spiegel_2007"
+facebook  = "spiegel.im.spiegel"
+linkedin  = "spiegelimspiegel"
+flattr    = "spiegel"
